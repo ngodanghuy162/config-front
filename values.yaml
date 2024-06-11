@@ -99,3 +99,4 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+#test ok vàfo cuối file
