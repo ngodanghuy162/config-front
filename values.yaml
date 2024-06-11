@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 2
+replicaCount: 1
 
 image:
   repository: ngodanghuy162/myrepo
@@ -42,7 +42,7 @@ service:
   type: NodePort
   port: 5500
   targetPort: 5500
-  nodePort: 31108
+  nodePort: 31100
 
 ingress:
   enabled: false
